@@ -56,9 +56,12 @@ Use a different browser to avoid this issue.
 ### Test data
 Uses the base data from the pytesseract github repo, and additionnal images
 
-J'ai fais des tests :
-- test2.png marche mais lit pas le charactere '9' sur la droite (en gros)
-- birthday.png lit mal à 2 endroits ('Join ud:\n\n' et 'Balhday')
+New tests include:
+- test2.png doesn't read character '9' on the right-hand side
+- birthday.png incorrectly reads at 2 points ('Join ud:\n\n' instead of 'Join us:\n and 'Balhday' instead of 'Birthday')
+- Carte visite john doe incorrectly read the mail address (a space and an 'm' is read as 'n')
+
+tesseract has a few spelling issues even in the base tests.
 
 ### Your own tests
 Please do your own tests as well ! The app has limits, max ... file size and a 10 seconds computation limit.
