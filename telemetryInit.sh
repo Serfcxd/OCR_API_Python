@@ -1,0 +1,1 @@
+opentelemetry-bootstrap -a install

@@ -1,0 +1,1 @@
+opentelemetry-instrument --service_name ocr-api uvicorn main:app

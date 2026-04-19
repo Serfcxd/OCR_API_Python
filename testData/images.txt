@@ -1,0 +1,2 @@
+./pytesseract-master/tests/data/test.jpg
+./pytesseract-master/tests/data/test-european.jpg
